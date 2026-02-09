@@ -3,11 +3,11 @@ import streamlit as st
 st.title("Тест по математика")
 st.write("Отговори на въпросите и натисни **Изпрати**")
 
-q1 = st.number_input("1️⃣ Колко е 5 × 5 ?", step=1)
-q2 = st.number_input("2️⃣ Колко е 10 + 2 ?", step=1)
-q3 = st.number_input("3️⃣ Колко е 8 − 3 ?", step=1)
-q4 = st.number_input("4️⃣ Колко е 4 × 2 ?", step=1)
-q5 = st.number_input("5️⃣ Колко е 20 ÷ 4 ?", step=1)
+q1 = st.number_input("1️⃣ Колко е 5 × 5 ?")
+q2 = st.number_input("2️⃣ Колко е 10 + 2 ?")
+q3 = st.number_input("3️⃣ Колко е 8 − 3 ?")
+q4 = st.number_input("4️⃣ Колко е 4 × 2 ?")
+q5 = st.number_input("5️⃣ Колко е 20 ÷ 4 ?")
 
 if st.button("Изпрати"):
     score = 0
